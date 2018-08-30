@@ -1,10 +1,16 @@
-.news__col {
+.News__Col {
   display: table-cell;
 }
-.news__image {
+.News__Image {
   height: 150px;
   background: url('../images/1920x1080.png');
   background-position: center;
   background-size: contain;
   filter: brightness(80%);
+}
+
+@media screen and (max-width: 767px) {
+  .Navigation {
+    display: none;
+  }
 }
