@@ -1,0 +1,8 @@
+.Carousel__Image__Background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url('./../images/php-mysql.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 512px;
+  width: 100%;
+}
