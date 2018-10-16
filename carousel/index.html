@@ -13,38 +13,38 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="Header container-fluid sticky-top bg-light border-bottom shadow">
         <div class="row">
-            <div class="col-12 px-0">
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                    <a class="navbar-brand text-light" href="#">Carousel</a>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-muted" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled text-muted" href="#">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </nav>
-            </div>
+            <nav class="col-12 navbar navbar-expand-md navbar-dark ">
+                <a class="navbar-brand text-dark d-flex align-items-center" href="#">
+                    <img src="./assets/images/bootstrap-solid.svg" alt="" class="w-25 px-md-4 ">
+                    <h1 class="d-none d-md-block">Bootstrap 4</h1>
+                </a>
+                <button class="navbar-toggler bg-dark ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse mr-md-auto" id="navbarNav">
+                    <ul class="navbar-nav mx-0 mt-3 mt-md-0 ml-md-auto">
+                        <li class="nav-item pl-3 pl-md-0 mx-md-3 active bg-dark d-flex align-items-center">
+                            <a class="nav-link font-weight-bold text-light " href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item pl-3 pl-md-0 mx-md-3 ">
+                            <a class="nav-link font-weight-bold text-dark" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item pl-3 pl-md-0 mx-md-3 ">
+                            <a class="nav-link font-weight-bold text-dark" href="#">Help</a>
+                        </li>
+                        <li class="nav-item pl-3 pl-md-0 mx-md-3">
+                            <a class="nav-link font-weight-bold text-dark" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
 
-    <div class="container-fluid mb-5">
+    <div class="Carousel container-fluid d-none d-md-block mb-5">
         <div class="row">
             <div class="col-12 px-0">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -55,36 +55,35 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <!-- <img class="d-block w-100" src="https://picsum.photos/1366/512" alt="First slide" style="height:512px;"> -->
-                            <div class="Carousel__Image__Background"></div>
-                            <div class="carousel-caption text-left">
+                            <div class="Carousel__Image__Background Carousel__Image__Background--first"></div>
+                            <div class="carousel-caption mb-5 text-left">
                                 <h1>Example headline.</h1>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                     porta
                                     gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <a class="btn btn-lg btn-primary mb-5" href="#" role="button">Sign up today</a>
+                                <a class="btn btn-lg btn-success rounded-0 text-uppercase" href="#">Sign up</a>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item">
-                            <img class="d-block w-100" src="https://picsum.photos/1366/512" alt="Second slide" style="height:512px;">
-                            <div class="carousel-caption text-center">
+                        <div class="carousel-item">
+                            <div class="Carousel__Image__Background Carousel__Image__Background--second"></div>
+                            <div class="carousel-caption mb-5 text-center">
                                 <h1>Another example headline.</h1>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                     porta
                                     gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <a class="btn btn-lg btn-primary mb-5" href="#" role="button">Learn more</a>
+                                <a class="btn btn-lg btn-warning rounded-0 text-uppercase" href="#">learn more</a>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://picsum.photos/1366/512" alt="Third slide" style="height:512px;">
-                            <div class="carousel-caption text-right">
+                            <div class="Carousel__Image__Background Carousel__Image__Background--third"></div>
+                            <div class="carousel-caption mb-5 text-right">
                                 <h1>One more for good measure.</h1>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                     porta
                                     gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <a class="btn btn-lg btn-primary mb-5" href="#" role="button">Browse gallery</a>
+                                <a class="btn btn-lg btn-danger rounded-0 text-uppercase" href="#">sign in</a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,71 +98,72 @@
         </div>
     </div>
 
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle" src="https://picsum.photos/140/140" alt="Generic placeholder image" width="140"
-                    height="140">
+    <div class="Feature container border-bottom my-5">
+        <div class="row card-columns">
+            <div class="card border-0 d-flex flex-column col-12 col-md-4 align-items-center">
+                <div class="Feature__Image Feature__Image--first rounded-circle mb-2 card-img-top"></div>
                 <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
-                    ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                <div class="card-body">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
+                        exercitationem vero commodi, autem amet harum, quos eligendi nisi, ratione alias sed at fuga
+                        ducimus minus suscipit. Et, laudantium.</p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle" src="https://picsum.photos/140/140" alt="Generic placeholder image" width="140"
-                    height="140">
+            <div class="card border-0 d-none d-md-flex flex-column col-12 col-md-4  align-items-center">
+                <div class="Feature__Image Feature__Image--second rounded-circle mb-2 card-img-top"></div>
                 <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
-                    ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                <div class="card-body">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
+                        exercitationem vero commodi, autem amet harum, quos eligendi nisi, ratione alias sed at fuga
+                        ducimus minus suscipit. Et, laudantium.</p>
+                </div>
+                <div class="card-footer bg-white border-0 ">
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle" src="https://picsum.photos/140/140" width="140" height="140">
+            <div class="card border-0 d-none d-md-flex flex-column col-12 col-md-4 align-items-center">
+                <div class="Feature__Image Feature__Image--third rounded-circle mb-2 card-img-top"></div>
                 <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
-                    ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                <div class="card-body">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
+                        exercitationem vero commodi, autem amet harum, quos eligendi nisi, ratione alias sed at fuga
+                        ducimus minus suscipit. Et, laudantium.</p>
+                </div>
+                <div class="card-footer bg-white border-0 ">
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
             </div>
-
         </div>
     </div>
 
-    <div class="container mt-5 mb-5">
-        <div class="row d-flex flex-column justify-content-center align-items-center flex-xl-row">
-            <div class="col-12 col-xl-7">
+    <div class="Content container my-5">
+        <div class="row d-flex flex-column flex-xl-row justify-content-center align-items-center">
+            <div class="col-12 col-xl-7 ">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your
                         mind.</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
                     felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
                     dapibus, tellus ac cursus commodo.</p>
             </div>
-            <div class="col-12 col-xl-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;"
-                    src="https://picsum.photos/500/500" data-holder-rendered="true">
+            <div class="col-12 col-xl-5 mb-5 mb-md-0">
+                <div class="Content__Image Content__Image--first"></div>
             </div>
         </div>
-    </div>
-
-    <div class="container mt-5 mb-5">
-        <div class="row d-flex flex-column justify-content-center align-items-center flex-xl-row">
+        <div class="row d-flex flex-column flex-xl-row justify-content-center align-items-center ">
             <div class="col-12 col-xl-7 order-xl-2">
                 <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
                     felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
                     dapibus, tellus ac cursus commodo.</p>
             </div>
-            <div class="col-12 col-xl-5 order-xl-1">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;"
-                    src="https://picsum.photos/500/500" data-holder-rendered="true">
+            <div class="col-12 col-xl-5 mb-5 mb-md-0">
+                <div class="Content__Image Content__Image--second"></div>
             </div>
         </div>
-    </div>
-
-    <div class="container mt-5 mb-5">
-        <div class="row d-flex flex-column justify-content-center align-items-center flex-xl-row">
+        <div class="row d-flex flex-column flex-xl-row justify-content-center align-items-center ">
             <div class="col-12 col-xl-7">
                 <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
@@ -171,30 +171,24 @@
                     dapibus, tellus ac cursus commodo.</p>
             </div>
             <div class="col-12 col-xl-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;"
-                    src="https://picsum.photos/500/500" data-holder-rendered="true">
+                <div class="Content__Image Content__Image--third"></div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
+    <div class="Footer container-fluid border-top">
+        <div class="row my-3">
+            <div class="col-6 offset-2">
                 <p>© 2017-2018 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
             </div>
-            <div class="col-4 text-right">
+            <div class="col-2 text-right">
                 <a href="#">Back to top</a>
             </div>
         </div>
     </div>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="./assets/js/jquery.js"></script>

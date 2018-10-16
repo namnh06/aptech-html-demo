@@ -1,8 +1,52 @@
 .Carousel__Image__Background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-    url('./../images/php-mysql.jpg');
   background-position: center;
   background-size: cover;
   height: 512px;
   width: 100%;
+}
+.Carousel__Image__Background--first {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url('./../images/php-mysql.jpg');
+}
+.Carousel__Image__Background--second {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url('./../images/slide-aptech.jpg');
+}
+.Carousel__Image__Background--third {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url('./../images/team-building.jpg');
+}
+
+.Feature__Image {
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.Feature__Image--first {
+  background-image: url('./../images/1.jpg');
+}
+.Feature__Image--second {
+  background-image: url('./../images/2.jpg');
+}
+.Feature__Image--third {
+  background-image: url('./../images/3.jpg');
+}
+
+.Content__Image {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.Content__Image--first {
+  background-image: url('./../images/1.jpg');
+}
+.Content__Image--second {
+  background-image: url('./../images/2.jpg');
+}
+.Content__Image--third {
+  background-image: url('./../images/3.jpg');
 }
