@@ -1,0 +1,35 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+
+  &__First,
+  &__Second,
+  &__Third {
+    height: 100px;
+    width: 33.33%;
+  }
+
+  &__First {
+    background-color: red;
+
+    @media screen and (max-width: 576px) {
+      background-color: green;
+    }
+  }
+
+  &__Second {
+    background-color: blue;
+
+    @media screen and (max-width: 576px) {
+      background-color: red;
+    }
+  }
+
+  &__Third {
+    background-color: green;
+
+    @media screen and (max-width: 576px) {
+      background-color: blue;
+    }
+  }
+}
